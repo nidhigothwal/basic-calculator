@@ -7,33 +7,20 @@ body {
     font-family: sans-serif;
 }
 
-.number1,
-.number2 {
-    height: 25px;
-    width: 254px;
-    border-radius: 8px;
-    box-shadow: 5px rgb(146, 142, 142) inset;
-    margin-top: 30px;
-    color: rgb(51, 49, 49);
-    background-color: #f3ecec;
-    text-align: center;
-    font-size: 15px;
-}
-
 .content {
     text-align: center;
     color: #eae3db;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 50px;
 
 }
 
 .center_box {
-    width: 30%;
-    height: 300px;
+    width: 50%;
+    height: 500px;
     margin: 0 auto;
     margin-top: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #181f32;
 }
 
@@ -43,6 +30,44 @@ body {
     height: 50px;
     font-size: 30px;
 }
+
+.number1 {
+    height: 50px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 5px rgb(146, 142, 142) inset;
+    color: rgb(51, 49, 49);
+    background-color: #f3ecec;
+    text-align: center;
+    font-size: 15px;
+}
+
+.number2 {
+    height: 50px;
+    width: 400px;
+    margin-top: 80px;
+    border-radius: 8px;
+    box-shadow: 5px rgb(146, 142, 142) inset;
+    color: rgb(51, 49, 49);
+    background-color: #f3ecec;
+    text-align: center;
+    font-size: 15px;
+}
+
+.add,
+.sub,
+.multi,
+.divide {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 2px gray inset;
+    margin-top: 80px;
+    color: rgb(37, 37, 37);
+}
+
 
 .button {
     height: 20px;
@@ -56,14 +81,21 @@ body {
 
 .text {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: whitesmoke;
+    margin-top: 120px;
 }
 
 #result {
+    height: 50px;
+    width: 140px;
+    color: rgb(70, 68, 68);
+    background-color: white;
     border-radius: 5px;
-    box-shadow: 2px rgb(146, 142, 142) inset;
-    margin-left: 210px;
-    margin-top: 20px;
+    box-shadow: 2px gray inset;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
 
 }
