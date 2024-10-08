@@ -3,26 +3,67 @@
 }
 
 body {
-    color: white;
     background-color: #3b4664;
     font-family: sans-serif;
+}
+
+.number1,
+.number2 {
+    height: 25px;
+    width: 254px;
+    border-radius: 8px;
+    box-shadow: 5px rgb(146, 142, 142) inset;
+    margin-top: 30px;
+    color: rgb(51, 49, 49);
+    background-color: #f3ecec;
+    text-align: center;
+    font-size: 15px;
 }
 
 .content {
     text-align: center;
     color: #eae3db;
+    font-size: 40px;
+    margin-top: 50px;
+
 }
 
 .center_box {
     width: 30%;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
     margin-top: 30px;
+    border-radius: 10px;
     background-color: #181f32;
 }
-.input_center{
-        width: 100%;
-        text-align: center;
-        height: 50px;
-        font-size: 30px;
+
+.input_center {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+}
+
+.button {
+    height: 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px rgb(146, 142, 142) inset;
+
+
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#result {
+    border-radius: 5px;
+    box-shadow: 2px rgb(146, 142, 142) inset;
+    margin-left: 210px;
+    margin-top: 20px;
+
 }
